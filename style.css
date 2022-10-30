@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.container{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(18, 84, 184, 0.452);
+}
+
+form {
+    background-color: white;
+    max-width: 450px;
+    width: 100%;
+    border: 1px solid rgb(110, 110, 110);
+    box-shadow: 0 2px 5px rgb(0, 0, 0, 0.5);
+    border-radius: 10px;
+}
+
+.form-container{
+    padding: 30px;
+}
+
+.form-container span{
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+}
+
+.input-field{
+    margin: 15px 0;
+}
+
+input{
+    padding: 5px;
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid rgba(77, 77, 77, 0.644);
+}
+
+
+.input-field button{
+    margin-top: 10px;
+    width: 100%;
+    padding: 5px 0;
+    font-size: 15px;
+    font-weight: 500;
+    letter-spacing: 2px;
+}
+
+.LoginPage {
+    text-align:right;
+    margin-top: 20px;
+}
+
+.LoginPage a{
+    color: blue;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.DaftarPage {
+    text-align:right;
+    margin-top: 20px;
+}
+
+.DaftarPage a{
+    color: blue;
+    text-decoration: none;
+    font-size: 16px;
+}
